@@ -11,9 +11,7 @@ app.listen(port, () => {
     console.log(`Started on port ${port}`);
 });
 
-app.get('/',(req,res)=>{
-    res.send('OK!')
-});
+
 
 
 export default app;
