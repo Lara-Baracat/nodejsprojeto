@@ -11,7 +11,7 @@ app.listen(port, () => {
     console.log(`Started on port ${port}`);
 });
 
-
+require('./controllers/authController')(app);
 
 
 export default app;
